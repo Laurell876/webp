@@ -4,7 +4,7 @@
     padding:0;
 }
 body {
-    background-color: rgba(86,238,244,0.4);
+    background-color: #cfdee7;
     font-family: 'Montserrat';
 }
 #navHeading {
@@ -17,7 +17,7 @@ nav{
     display:flex;
     align-items: center;
     height: 40px;
-    background-color: #b24c63;
+    background-color: #4472ca;
 }
 .fields-left {
     display:flex;
@@ -42,7 +42,7 @@ nav{
     padding:3px;
     border-radius: 5px;
     outline:none;
-    border:1px solid #5438dc;
+    border:1px solid #4472ca;
 }
 
 .inputs div{
@@ -53,7 +53,7 @@ nav{
     padding:5px;
 }
 hr {
-    color: #5438dc;
+    color: #4472ca;
 }
 
 #cartDetails {
@@ -86,7 +86,7 @@ td {
 }
 
 th, td {
-    border: 1.4px solid #b24c63;
+    border: 1.4px solid #4472ca;
 }
 table {
     border-collapse: collapse;
@@ -97,7 +97,7 @@ table {
 select {
     padding: 3px 15px 3px 15px;
     border-radius: 5px;
-    border: 1px solid #b24c63;
+    border: 1px solid #4472ca;
     background: transparent;
     width:140px;
 }
@@ -105,7 +105,7 @@ select {
 input {
     padding: 3px 15px 3px 15px;
     border-radius: 5px;
-    border: 1px solid #b24c63;
+    border: 1px solid #4472ca;
     background: transparent;
     
 }
@@ -131,16 +131,17 @@ button {
     border-radius: 5px;
     width:160px;
     height:40px;
-    background-color: #5438dc;
+    background-color: #0a369d;
     color:white;
     border:1px solid;
     transition: all 0.3s ease-in-out;
+    border: 1.5px solid #0a369d;
 }
 
 button:hover {
     cursor:pointer;
     background-color: white;
-    color: #5438dc;
-    border: 1.5px solid #5438dc;
+    color: #0a369d;
+    border: 1.5px solid #0a369d;
 }
 
