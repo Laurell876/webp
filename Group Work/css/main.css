@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: rgba(86,238,244,0.4);
+    font-family: 'Montserrat';
+}
+#navHeading {
+    color:white;
+    padding-left:10px;
+    font-family:'Montserrat';
+    letter-spacing: 3px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    height: 40px;
+    background-color: #b24c63;
+}
+.fields-left {
+    display:flex;
+    flex-direction: column;
+}
+
+.fields-right {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.fields {
+    margin:20px 10px 0px 10px;
+    
+    display:flex;
+    justify-content: space-between;
+
+}
+.fields input {
+    width:200px;
+    padding:3px;
+    border-radius: 5px;
+    outline:none;
+    border:1px solid #5438dc;
+}
+
+.inputs div{
+    width:400px;
+    
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
+}
+hr {
+    color: #5438dc;
+}
+
+#cartDetails {
+    margin-top:50px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    font-size:30px;
+}
+.table-section {
+    
+    margin-top:50px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.table-section input {
+    width:120px;
+}
+
+th {
+    font-size:20px;
+    padding:3px;
+}
+td {
+    padding: 5px;
+    font-size: 15px;
+    width:160px;
+}
+
+th, td {
+    border: 1.4px solid #b24c63;
+}
+table {
+    border-collapse: collapse;
+
+}
+
+
+select {
+    padding: 3px 15px 3px 15px;
+    border-radius: 5px;
+    border: 1px solid #b24c63;
+    background: transparent;
+    width:140px;
+}
+
+input {
+    padding: 3px 15px 3px 15px;
+    border-radius: 5px;
+    border: 1px solid #b24c63;
+    background: transparent;
+    
+}
+img {
+    border-radius:10%;
+    padding:10px;
+    width: 250px;
+    HEIGHT:130px;
+}
+

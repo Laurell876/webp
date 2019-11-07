@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title> Car World </title>
+</head>
+<body>
+    <center>
+        <img src="images/logo.png" alt="business" width="82" height="82">
+        <h1>CAR WORLD ORGANISATION (CWO)</h1>
+    </center>
+    <form>
+        <label>INVOICE NO:</label>
+        <input type="number" name="num" size="20" id="invoice1" pattern="[0-9]{7}" required><br><br>
+        <label>INVOICE DATE:</label>
+        <input type="date" name="date1" size="20" id="date1"required><br><br>
+        <label>SOLD TO COMPANY/DEALER NO.</label>
+        <input type="text" name="company" size="30" id="sold1" pattern="[A-Za-z]{1}-[0-9]{5}-[0-9]{4}" placeholder="eg.T-00000-0000" required><br><br>
+        <label>COMPANY'S/DEALER'S NAME:</label>
+        <input type="text" name="company" size="40" id="name1" required placeholder="name"><br><br>
+        <label>COMPANY'S/DEALER'S ADDRESS:</label>
+        <input type="text" name="address" size="40" id="address" required placeholder="address" ><br><br>
+        <label>COMPANY'S/DEALER'S EMAIL: &nbsp;</label>
+        <input type="email"id="email1" name="email101"  id="email1" placeholder = "example@gmail.com" size="20" required>
+        <br><br>
+        <label>COMPANY'S/DEALER'S CONTACT:</label>
+        <input type="text" name="tele101" id="contact1" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="eg.876-000-0000" size="20" required><br><br><br><br>
+
+
+        <img src="images/Wrang.gif" alt="jeep" id="jeep1" width="99" height="82"><br>
+        <label id='label0'>JEEP WANGLER </label>(USD)
+        <select name="year00" id="year0" required>
+            <option selected="selected">Select Year</option>
+            <option value="43000">2016 ($43000)</option>
+            <option value="48000">2017 ($48000)</option>
+            <option value="55000">2018 ($55000)</option>
+            <option value="63000">2019 ($63000)</option>
+            <option value="80000">2020 ($80000)</option>
+        </select>
+
+
+        <label>
+                <select name="color" id="color0" required>
+                <option selected="selected">Select Color</option>
+                <option>BLACK</option>
+                <option>WHITE</option>
+                <option>SLIVER</option>
+                <option>BLUE</option>
+                <option>RED</option>
+            </select>
+        </label>
+        <label>
+            <select name="jeep" id="quantity0" required>
+                <option selected="selected">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </label>
+        <label> =
+            <input id="price0" type="text" size="20" readonly required />
+        </label>
+
+
+    <img src="images/mbenz.gif" alt="benz" id="e400" width="99" height="82"><br>
+    <label id='label1'>MERCEDES-BENNZ E400 </label>(USD)
+        <select name="years101" id="year1" required>
+        <option selected="selected">Select Year</option>
+        <option value="58000">2016 ($58000)</option>
+        <option value="65600">2017 ($65600)</option>
+        <option value="71000">2018 ($71000)</option>
+        <option value="75000">2019 ($75000)</option>
+        <option value="84500">2020 ($84500)</option>
+        </select>
+
+    <label>
+        <select name="color101" id="color1" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </label>
+            <label>
+            <select name="benz" id="quantity1" required>
+            <option selected="selected">Select Quantity</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price1" type="text" size="20"  readonly required  />
+        </label><br><br>
+
+ <img src="images/bmw.gif" alt="bmw" id="x6" width="99" height="82"><br>
+    <label id='label2'>BMW-X6 </label>(USD)
+        <select name="years202" id="year2" required>
+        <option selected="selected">Select Year</option>
+        <option value="69900">2016 ($69900)</option>
+        <option value="71400">2017 ($71400)</option>
+        <option value="78100">2018 ($78100)</option>
+        <option value="83000">2019 ($83000)</option>
+        <option value="89300">2020 ($89300)</option>
+        </select>
+
+    <label>
+        <select name="color202" id="color2" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </labeL>
+
+            <label>
+            <select name="bmw" id="quantity2" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price2" type="text" size="20"  readonly required />
+        </label><br><br>
+
+        <img src="images/bently.gif" alt="car" id="bently" width="101" height="82"><br>
+        <label id='label3'>BENTLEY BENTAYGA </label>(USD)
+        <select name="years303" id="year3" required>
+        <option selected="selected">Select Year</option>
+        <option value="79000">2016 ($79000)</option>
+        <option value="82800">2017 ($82800)</option>
+        <option value="93000">2018 ($93000)</option>
+        <option value="100300">2019 ($100300)</option>
+        <option value="109000">2020 ($109000)</option>
+        </select>
+
+    <labeL>
+        <select name="color303" id="color3" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </labeL>
+            <label>
+            <select name="bent" id="quantity3" required>
+            <option selected="selected">Select Quantity</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price3" type="text" size="20"  readonly required  />
+        </label><br><br>
+
+    <img src="images/audi.gif" alt="adui" id="audi1" width="101" height="82"><br>
+    <label id='label4'>AUDI </label>(USD)
+        <select name="year404" id="year4" required>
+        <option selected="selected">Select Year</option>
+        <option value="114000">2016 ($114000)</option>
+        <option value="129000">2017 ($129000)</option>
+        <option value="134000">2018 ($134000)</option>
+        <option value="145000">2019 ($145000)</option>
+        <option value="156000">2020 ($156000)</option>
+        </select>
+
+
+    <label>
+        <select name="color404" id="color4" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </label>
+
+            <label>
+            <select name="audi" id="quantity4" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+
+            </select>
+        </label>
+
+        <label> =
+            <input id="price4" type="text" size="20"  readonly required price="114000" />
+        </label><br><br>
+
+        <img src="images/lexus.gif" alt="lexus" id="lexus1" width="101" height="82"><br>
+        <label id='label5'>LEXUS GS 450h </label>(USD)
+        <select name="year5" id="year5" required>
+        <option selected="selected">Select Year</option>
+        <option value="72800">2016 ($72800)</option>
+        <option value="120000">2017 ($12000)</option>
+        <option value="145000">2018 ($145800)</option>
+        <option value="158000">2019 ($15800)</option>
+        <option value="173000">2020 ($17300)</option>
+        </select>
+
+
+    <labeL>
+       <select name="color505" id="color5" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </labeL>
+
+         <label>
+            <select name="lexus" id="quantity5" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price5" type="text" size="20" readonly required price="72800"/>
+        </label><br><br>
+
+ <img src="images/porsche.gif" alt="911" id="porsche1" width="101" height="82"><br>
+<label id='label6'> PORSCHE 911 </label>(USD)
+        <select name="years606" id="year6" required>
+        <option selected="selected">Select Year</option>
+        <option value="145000">2016 ($145000)</option>
+        <option value="152000">2017 ($152000)</option>
+        <option value="159000">2018 ($159000)</option>
+        <option value="162000">2019 ($162000)</option>
+        <option value="172000">2020 ($172000)</option>
+        </select>
+
+
+    <label>
+        <select name="color606" id="color6" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </label>
+
+            <label>
+            <select name="porsche" id="quantity6" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price6" type="text" size="20" readonly required price="159000" />
+        </label><br><br>
+
+
+ <img src="images/land.gif" alt="rover" id="land1" width="101" height="82"><br>
+    <label id='label7'>LAND ROVER </label>(USD)
+        <select name="years707" id="year7" required>
+        <option selected="selected">Select Year</option>
+        <option value="56000">2016 ($56000)</option>
+        <option value="78300">2017 ($78300)</option>
+        <option value="91000">2018 ($91000)</option>
+        <option value="119000">2019 ($119000)</option>
+        <option value="145000">2020 ($145000)</option>
+        </select>
+
+
+    <label>
+        <select name="color707" id="color7" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </label>
+
+            <label>
+            <select name="rover" id="quantity7" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price7" type="text" size="20"  readonly required price="43000"  />
+        </label><br><br>
+
+     <img src="images/lam.gif" alt="lamborghini" id="lam1" width="101" height="82"><br>
+    <label id='label8'>LAMBORGHINI </label>(USD)
+        <select name="years808" id="year8" required>
+        <option selected="selected">Select Year</option>
+        <option value="106800">2016 ($106800)</option>
+        <option value="110000">2017 ($110000) </option>
+        <option value="118000">2018 ($118000)</option>
+        <option value="134000">2019 ($134000)</option>
+        <option value="156000">2020 ($156000)</option>
+    </select>
+
+
+        <label>
+        <select name="color808" id="color8" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </label>
+
+            <label>
+            <select name="lamb" id="quantity8" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price8" type="text" size="20" readonly required price="106000" />
+        </label><br><br>
+
+ <img src="images/rolls.gif" alt="royce" id="rolls1" width="101" height="82"><br>
+<label id='label9'>ROLLS ROYCE </label>(USD)
+        <select name="years909" id="year9" required>
+        <option selected="selected">Select Year</option>
+        <option value="124000">2016 ($124000)</option>
+        <option value="139000">2017 ($139000)</option>
+        <option value="175000">2018 ($175000)</option>
+        <option value="189000">2019 ($189000)</option>
+        <option value="209000">2020 ($209000)</option>
+        </select>
+
+    <label>
+        <select name="color909" id="color9" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+        </label>
+
+            <label>
+            <select name="royce" id="quantity9" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price9" type="text" size="20" readonly required  />
+        </label><br><br>
+
+ <img src="images/bugg.gif" alt="bugatti" id="bugg1" width="101" height="82"><br>
+      <label id='label10'> BUGATTI </label>(USD)
+        <select name="years1010" id="year10" required>
+        <option selected="selected">Select Year</option>
+        <option value="92300">2016 ($92300)</option>
+        <option value="122000">2017 ($122000)</option>
+        <option value="156000">2018 ($156000)</option>
+        <option value="187000">2019 ($187000)</option>
+        <option value="234000">2020 ($234000)</option>
+        </select>
+
+    <label>
+        <select name="color1010" id="color10" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+    </label>
+            <label>
+            <select name="bug" id="quantity10" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price10" type="text" size="20"  readonly required  />
+        </label><br><br>
+
+    <img src="images/ferr.gif" alt="ferrari" id="ferr1" width="101" height="82"><br>
+    <label id='label11'>FERRARI </label>(USD)
+        <select name="years111" id="year11" required>
+        <option selected="selected">Select Year</option>
+        <option value="189000">2016 ($189000)</option>
+        <option value="198000">2017 ($198000)</option>
+        <option value="229900">2018 ($229900)</option>
+        <option value="238000">2019 ($238000)</option>
+        <option value="256000">2020 ($256000)</option>
+     </select>
+        <select name="color111" id="color11" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+
+            <label>
+            <select name="ferr" id="quantity11" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price11" type="text" size="20"  readonly required  />
+        </label><br><br>
+
+<img src="images/jag.gif" alt="jaguar" id="jag1" width="101" height="82"><br>
+    <label id='label12'>JAGUAR </label>(USD)
+        <select name="years121" id="year12" required>
+        <option selected="selected">Select Year</option>
+        <option value="127000">2016 ($127000)</option>
+        <option value="139000">2017 ($139000)</option>
+        <option value="153000">2018 ($153000)</option>
+        <option value="197000">2020 ($197000)</option>
+        </select>
+
+        <select name="color121" id="color12" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+
+            <label>
+            <select name="jag" id="quantity12" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price12" type="text" size="20" readonly required  />
+        </label><br><br>
+
+<img src="images/tesla.gif" alt="tesla" id="tesla1" width="101" height="82"><br>
+<label id='label13'>TESLA </label>(USD)
+        <select name="years131" id="year13" required>
+        <option selected="selected">Select Year</option>
+        <option value="178000">2016 ($178000)</option>
+        <option value="187000">2017 ($187000)</option>
+        <option value="199000">2018 ($199000)</option>
+        <option value="215000">2019 ($215000)</option>
+        <option value="248000">2020 ($248000)</option>
+        </select>
+
+        <select name="color131" id="color13" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+
+            <label>
+            <select name="tesla" id="quantity13" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price13" type="text" size="20" readonly required  />
+        </label><br><br>
+
+<img src="images/bent.gif" alt="bentley" id="bent1" width="101" height="82"><br>
+<label id='label14'>BENTLEY </label>(USD)
+        <select name="years14" id="year14" required>
+        <option selected="selected">Select Year</option>
+        <option value="93000">2016 ($93000)</option>
+        <option value="105600">2017 ($105600)</option>
+        <option value="124000">2018 ($124000)</option>
+        <option value="151000">2019 ($151000)</option>
+        <option value="183000">2020 ($183000)</option>
+        </select>
+
+        <select name="color14" id="color14" required>
+        <option selected="selected">Select Color</option>
+        <option>BLACK</option>
+        <option>WHITE</option>
+        <option>SLIVER</option>
+        <option>BLUE</option>
+        <option>RED</option>
+        </select>
+
+            <label>
+            <select name="bent" id="quantity14" required>
+            <option selected="selected">Select Quantiy</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </label>
+
+        <label> =
+            <input id="price14" type="text" size="20"  readonly required />
+        </label><br><br>
+
+
+        <label>SUBTOTAL = </label>
+        <input id="subtotal" type="text" size="30" readonly required=""><br><br>
+
+
+         <label>TAXES (%) = </label>
+        <input id="tax" type="text" size="20"><br><br>
+
+
+        <label>TOTAL = </label>
+        <input id="total" type="text" size="30" readonly required=""><br><br>
+
+
+        <button type="button" id="submit">SUBMIT ORDER</button>
+
+        <button type="button" id="email101">EMAIL</button>
+
+        <button type="reset" id="cancel101">CANCEL</button>
+
+        <button type="button" id="exit101" >EXIT</button><br><br>
+        
+       </form>
+
+       <fieldset>
+                               <center>ORDER</center><br>
+          INVOICE NO.<br>
+          INVOICE DATE:<br>
+          SOLD TO COMPANY/DEALER NO.<br>
+          COMPANY'S/DEALER'S NAME:<br>
+          COMPANY'S/DEALER'S ADDRESS:<br>
+          COMPANY'S/DEALER'S EMAIL:<br><br>
+       </fieldset><br><br>
+      <script type="text/javascript" src="javascript/js.js"></script>
+</body>
+</html>
