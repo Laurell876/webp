@@ -116,3 +116,31 @@ img {
     HEIGHT:130px;
 }
 
+.button-section {
+    width:700px;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+button {
+    font-size:15px;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    border-radius: 5px;
+    width:160px;
+    height:40px;
+    background-color: #5438dc;
+    color:white;
+    border:1px solid;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: white;
+    color: #5438dc;
+    border: 1.5px solid #5438dc;
+}
+
