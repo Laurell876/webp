@@ -15,10 +15,19 @@ body {
 }
 nav{
     display:flex;
+    flex-direction: column;
     align-items: center;
-    height: 40px;
+    padding: 10px 0px 20px 0px;
     background-color: #4472ca;
+    justify-content: center;
+
 }
+
+nav img{
+    width: 100px;
+    height: 80px;
+}
+
 .fields-left {
     display:flex;
     flex-direction: column;
@@ -61,6 +70,8 @@ hr {
     letter-spacing: 2px;
     padding-left: 10px;
     font-size:30px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .table-section {
     
@@ -117,11 +128,12 @@ img {
 }
 
 .button-section {
-    width:700px;
+    width:70%;
     margin:auto;
     display:flex;
     justify-content: space-around;
     padding:20px;
+    margin-bottom: 50px;
 }
 
 button {
@@ -129,8 +141,8 @@ button {
     font-family: 'Montserrat';
     letter-spacing: 2px;
     border-radius: 5px;
-    width:160px;
-    height:40px;
+    width:180px;
+    height:50px;
     background-color: #0a369d;
     color:white;
     border:1px solid;
